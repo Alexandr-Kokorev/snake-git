@@ -8,7 +8,7 @@ namespace Snake
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(String[] args)
         {
             Point p1 = new Point(1, 3, '*');
             p1.Draw();
@@ -16,12 +16,12 @@ namespace Snake
             Point p2 = new Point(4,5,'#');
             p2.Draw();
 
-            List<int> numList = new List<int>();
+            List<Int32> numList = new List<Int32>();
             numList.Add(0);
             numList.Add(1);
             numList.Add(2);
 
-            foreach(int i in numList)
+            foreach(Int32 i in numList)
             {
                 Console.WriteLine(i);
             }
